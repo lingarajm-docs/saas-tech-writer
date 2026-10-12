@@ -23,17 +23,17 @@ An AI skill for software and SaaS technical writers. It helps you correct gramma
 ### Option 1: skills.sh (works with Claude Code, Cursor, Copilot, Codex, and other agents)
 
 ```bash
-npx skills add <your-github-username>/saas-tech-writer
+npx skills add lingarajm-docs/saas-tech-writer
 ```
 
 ### Option 2: Claude Code (manual)
 
 ```bash
 # Personal (all projects)
-git clone https://github.com/<your-github-username>/saas-tech-writer.git ~/.claude/skills/saas-tech-writer
+git clone https://github.com/lingarajm-docs/saas-tech-writer.git ~/.claude/skills/saas-tech-writer
 
 # Or project-level
-git clone https://github.com/<your-github-username>/saas-tech-writer.git .claude/skills/saas-tech-writer
+git clone https://github.com/lingarajm-docs/saas-tech-writer.git .claude/skills/saas-tech-writer
 ```
 
 ### Option 3: Other AI tools (ChatGPT, Gemini, Copilot, etc.)
